@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginBox{
+  width: 452px;
+  height: 476px;
+  border: 1px solid ;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+.forInput{
+  width: 416px;
+  height: 52px;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left:15px ;
+  border: 1px solid #E0E0E0;
+}
+.forInput::placeholder{
+  padding: 15px;
+  color: #847E95;
+}
+.confirmInputDiv{
+  width: 476px;
+  height: 189px;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #E0E0E0;
+}
+.confirmInput{
+  width: 40px;
+  height: 50px;
+  border: 1px solid #dcd9d9;
+  border-radius: 10px;
+}
+.confirmInput::-webkit-outer-spin-button,
+.confirmInput::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.anketaCard{
+  width: 476px;
+  height: 216px;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.anketaPageInput{
+  width: 100%;
+  height: 48px;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.anketaPageInput:focus{
+  outline: none;
+}
+.singinPageCard{
+  width: 476px;
+  height: 216px;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.singinPageInput{
+  width: 100%;
+  height: 48px;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.mainPageWrapper{
+  width: 100%;
+  height: 100vh;
+
+}
+.forHeaderPage{
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #DCDDE0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.forHeaderInput{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.leftBox{
+  width: 30%;
+  height: 100%;
+  border: 1px solid;
+}
+.headerPageforPTag{
+  color: #818697;
+  font-size: 16px;
+  font-weight: 600;
+}
+.rightBox{
+  width: 70%;
+  height: 100%;
+  border: 1px solid;
+  padding: 30px;
+}
+.forHeaderPersonalPage{
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid #DCDDE0;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalPageForPTag{
+  font-size: 16px;
+  color: #1F1A2D;
+  font-weight: 600;
+}
+.personalPageForButton{
+ width: 100%;
+  height: 48px;
+  border: none;
+  background:  #366EFF;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 15px;
+  color: #FFFFFF;
+}
+.rigtBoxForImage{
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 20px;
+  color: #dcd9d9;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.rigtBoxForImageIn{
+  width: 30px;
+  height: 30px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: #dcd9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #98b0f5;
+  padding: 10px;
+}
+.skillsPageWrapper{
+  width: 100%;
+  padding: 30px;
+
+}
